@@ -1,0 +1,99 @@
+name:          mooc
+version:       0.0.1
+build-type:    Simple
+cabal-version: >=1.10
+
+library
+  -- cabal-fmt: expand exercises
+  exposed-modules:
+    Examples.Bank
+    Examples.FetchWords
+    Examples.HelloServer
+    Examples.PathServer
+    Examples.Phantom
+    Examples.Phonebook
+    Examples.QuickCheck
+    Examples.ReadTypes
+    Examples.Validation
+    Mooc.LimitedPrelude
+    Mooc.Test
+    Mooc.Th
+    Mooc.Todo
+    Mooc.VeryLimitedPrelude
+    Set1
+    Set10a
+    Set10aTest
+    Set10b
+    Set10bTest
+    Set11a
+    Set11aTest
+    Set11b
+    Set11bTest
+    Set12
+    Set12Test
+    Set13a
+    Set13aTest
+    Set13b
+    Set13bTest
+    Set14a
+    Set14aTest
+    Set14b
+    Set14bTest
+    Set15
+    Set15Test
+    Set16a
+    Set16aTest
+    Set16b
+    Set16bTest
+    Set1Test
+    Set2a
+    Set2aTest
+    Set2b
+    Set2bTest
+    Set3a
+    Set3aTest
+    Set3b
+    Set3bTest
+    Set4a
+    Set4aTest
+    Set4b
+    Set4bTest
+    Set5a
+    Set5aTest
+    Set5b
+    Set5bTest
+    Set6
+    Set6Test
+    Set7
+    Set7Test
+    Set8
+    Set8Test
+    Set9a
+    Set9aTest
+    Set9b
+    Set9bTest
+
+  build-depends:
+      array             ==0.5.4.0
+    , base              ==4.16.4.0
+    , bytestring        ==0.11.4.0
+    , containers        ==0.6.5.1
+    , deepseq           ==1.4.6.1
+    , directory         ==1.3.6.2
+    , generic-random    ==1.5.0.1
+    , hspec             ==2.9.7
+    , HTTP              ==4000.4.1
+    , http-types        ==0.12.3
+    , JuicyPixels       ==3.3.7
+    , parallel          ==3.2.2.0
+    , QuickCheck        ==2.14.3
+    , sqlite-simple     ==0.4.18.2
+    , template-haskell  ==2.18.0.0
+    , text              ==1.2.5.0
+    , th-abstraction    ==0.4.5.0
+    , transformers      ==0.5.6.2
+    , wai               ==3.2.3
+    , warp              ==3.3.23
+
+  hs-source-dirs:   exercises
+  default-language: Haskell2010

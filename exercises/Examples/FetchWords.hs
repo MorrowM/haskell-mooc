@@ -1,3 +1,5 @@
+module Examples.FetchWords where
+
 import Network.HTTP
 import Control.Monad
 
