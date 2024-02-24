@@ -37,6 +37,8 @@ You complete the exercises by editing the file according to the instructions in
 the file. You can check your answers by running
 
 ```
+ghci> :r
+Ok, 66 modules loaded.
 ghci> SetXTest.main
 ```
 
